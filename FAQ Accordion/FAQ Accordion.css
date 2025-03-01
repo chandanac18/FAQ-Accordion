@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.accordion {
+    max-width: 600px;
+    margin: auto;
+}
+.question {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+.question:hover {
+    background-color: #0056b3;
+}
+.answer {
+    padding: 10px;
+    display: none;
+    background-color: #f1f1f1;
+    border-left: 3px solid #007BFF;
+}
